@@ -31,6 +31,8 @@ func main() {
 	flag.StringVar(&options.Domain, "domain", "", "Domain to use for interactsh server")
 	flag.StringVar(&options.IPAddress, "ip", "", "Public IP Address to use for interactsh server")
 	flag.StringVar(&options.ListenIP, "listen-ip", "0.0.0.0", "Public IP Address to listen on")
+	flag.StringVar(&options.ListenPort, "http-port", "80", "http server listen port")
+	flag.StringVar(&options.ListenTlsPort, "tls-port", "443", "https server listen port")
 	flag.StringVar(&options.Hostmaster, "hostmaster", "", "Hostmaster email to use for interactsh server")
 	flag.IntVar(&eviction, "eviction", 30, "Number of days to persist interactions for")
 	flag.BoolVar(&responder, "responder", false, "Start a responder agent - docker must be installed")
