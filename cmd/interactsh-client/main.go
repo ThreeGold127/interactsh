@@ -10,8 +10,8 @@ import (
 	"time"
 
 	"github.com/projectdiscovery/gologger"
-	"github.com/projectdiscovery/interactsh/pkg/client"
-	"github.com/projectdiscovery/interactsh/pkg/server"
+	"github.com/ThreeGold127/interactsh/pkg/client"
+	"github.com/ThreeGold127/interactsh/pkg/server"
 )
 
 const banner = `
