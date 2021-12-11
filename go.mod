@@ -15,7 +15,6 @@ require (
 	github.com/projectdiscovery/fastdialer v0.0.13-0.20210824195254-0113c1406542
 	github.com/projectdiscovery/fileutil v0.0.0-20210804142714-ebba15fa53ca
 	github.com/projectdiscovery/gologger v1.1.4
-	github.com/projectdiscovery/interactsh v0.0.6
 	github.com/projectdiscovery/retryabledns v1.0.12
 	github.com/projectdiscovery/retryablehttp-go v1.0.2
 	github.com/projectdiscovery/stringsutil v0.0.0-20210823090203-2f5f137e8e1d
